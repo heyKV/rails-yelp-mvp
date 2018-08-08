@@ -40,6 +40,12 @@ restaurants_attributes = [
     address:      'Benjin Central Communist Park',
     phone_number: '04 43 12 45 46',
     category:     'chinese'
+  },
+  {
+    name:         'Le bouge de Mars',
+    address:      'Canyon Marineris',
+    phone_number: '09 666',
+    category:     'neptunian'
   }
 ]
 Restaurant.create!(restaurants_attributes)
